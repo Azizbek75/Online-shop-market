@@ -58,6 +58,8 @@ export const Bottom = styled.div`
 width: 100%;
 display: flex;
 flex-direction: column;
+padding: 15px 0;
+background-color: #F8F8F8;
 `
 Bottom.Top = styled.div`
 width: 100%;
@@ -70,7 +72,7 @@ width: 100%;
 display: flex;
 justify-content: center;
 `
-Icons.Item = styled.div`
+Icons.Item = styled.a`
 padding: 7px;
 border: 1px solid #808080;
 border-radius: 50%;
@@ -116,4 +118,18 @@ cursor: pointer;
 path{
     fill:#808080;
 }
+`
+Bottom.Bottom = styled.div`
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px 0;
+`
+
+Bottom.Text = styled.p`
+width: 60%;
+font-size: 18px;
+color:grey;
+text-align:center;
 `

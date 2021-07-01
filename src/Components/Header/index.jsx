@@ -9,9 +9,9 @@ export default () => {
                    <Icons.Logo>
                      <Icons.SVG/>
                      <Icons.Logotext>
-                        <Icons.H2 align={'left'}>Online</Icons.H2>
-                            <Icons.H2 align={'center'}>/</Icons.H2>
-                        <Icons.H2 align={'right'}>Shopping</Icons.H2>
+                        <Icons.H2 >Online</Icons.H2>
+                            <Icons.H2>/</Icons.H2>
+                        <Icons.H2 >Shopping</Icons.H2>
                      </Icons.Logotext>
                    </Icons.Logo>
                    <Basket>

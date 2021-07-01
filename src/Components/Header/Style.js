@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import {ReactComponent as svg} from '../../SVG/ebay.svg';
-import {ReactComponent as svg1} from '../../SVG/shopping-cart.svg';
 
 
 export const Navbar = styled.div`
@@ -34,14 +33,14 @@ margin-left: 50px;
 Icons.Logotext = styled.div`
 width: 140px;
 display: flex;
-flex-direction:column;
+justify-content: space-between;
 padding: 10px;
 `
-Icons.H2 = styled.h4`
+Icons.H2 = styled.h3`
 color: #fff;
-text-align:${({align})=>align};
-line-height: 1.1;
+line-height: 1.2;
 font-weight: lighter;
+padding: 0 3px;
 `
 export const Basket = styled.div`
 width: 50%;

@@ -42,20 +42,27 @@ const Index = () => {
                 </Top>
                 <Bottom>
                   <Container>
-                    <Icons>
-                     <Icons.Item>
+                   <Bottom.Top>
+                   <Icons>
+                     <Icons.Item >
                         <Icons.Svg1/>
                      </Icons.Item>
                      <Icons.Item>
                         <Icons.Svg2/>
                      </Icons.Item>
-                     <Icons.Item>
+                     <Icons.Item href="https://t.me/azizbeknosirjanov">
                         <Icons.Svg3/>
                      </Icons.Item>
-                     <Icons.Item>
+                     <Icons.Item href="https://www.instagram.com/nosirjanovazizbek/">
                         <Icons.Svg4/>
                      </Icons.Item>
                     </Icons>
+                   </Bottom.Top>
+                   <Bottom.Bottom>
+                     <Bottom.Text>
+                     Copyright © 2021 CreativeLayers. All Right Reserved.
+                     </Bottom.Text>
+                   </Bottom.Bottom>
                   </Container>
                 </Bottom>
             </Footer>
