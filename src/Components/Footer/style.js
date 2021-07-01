@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
+import {ReactComponent as svg1} from '../../SVG/facebook.svg'
+import {ReactComponent as svg2} from '../../SVG/instagram.svg'
+import {ReactComponent as svg3} from '../../SVG/telegram.svg'
+import {ReactComponent as svg4} from '../../SVG/twitter.svg'
 
 export const Footer = styled.div`
 width: 100%;
@@ -49,4 +53,67 @@ export const Img = styled.img`
 width: 70px;
 height: 30px;
 margin-left: 1%;
+`
+export const Bottom = styled.div`
+width: 100%;
+display: flex;
+flex-direction: column;
+`
+Bottom.Top = styled.div`
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+`
+export const Icons = styled.div`
+width: 100%;
+display: flex;
+justify-content: center;
+`
+Icons.Item = styled.div`
+padding: 7px;
+border: 1px solid #808080;
+border-radius: 50%;
+margin-right:1%;
+display: flex;
+justify-content: center;
+align-items: center;
+:hover{
+    box-shadow:0px 0px 5px blue;
+}
+`
+
+Icons.Svg1 = styled(svg1)`
+width: 25px;
+height: 25px;
+cursor: pointer;
+path{
+    fill:#808080;
+}
+
+`
+Icons.Svg2 = styled(svg2)`
+width: 25px;
+height: 25px;
+cursor: pointer;
+path{
+    fill:#808080;
+}
+
+`
+Icons.Svg3 = styled(svg3)`
+width: 25px;
+height: 25px;
+cursor: pointer;
+path{
+    fill:#808080;
+}
+`
+Icons.Svg4 = styled(svg4)`
+width: 25px;
+height: 25px;
+cursor: pointer;
+path{
+    fill:#808080;
+}
 `

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Footer,Container, Top, Ul, Link,Img } from './style';
+import { Footer,Container, Top, Ul, Link,Img,Bottom,Icons } from './style';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 
@@ -39,7 +39,25 @@ const Index = () => {
                   </Top.Right>
                   </Top>
                   </Container>          
-                </Top>    
+                </Top>
+                <Bottom>
+                  <Container>
+                    <Icons>
+                     <Icons.Item>
+                        <Icons.Svg1/>
+                     </Icons.Item>
+                     <Icons.Item>
+                        <Icons.Svg2/>
+                     </Icons.Item>
+                     <Icons.Item>
+                        <Icons.Svg3/>
+                     </Icons.Item>
+                     <Icons.Item>
+                        <Icons.Svg4/>
+                     </Icons.Item>
+                    </Icons>
+                  </Container>
+                </Bottom>
             </Footer>
         </React.Fragment>
     );
