@@ -58,7 +58,7 @@ export const Bottom = styled.div`
 width: 100%;
 display: flex;
 flex-direction: column;
-padding: 15px 0;
+padding: 25px 0;
 background-color: #F8F8F8;
 `
 Bottom.Top = styled.div`

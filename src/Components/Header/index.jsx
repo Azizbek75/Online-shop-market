@@ -18,7 +18,7 @@ export default () => {
                        <Basket.Text>
                            Cost :
                        </Basket.Text>
-                       <Basket.Cost>0.00</Basket.Cost>
+                       <Basket.Cost>0.00 $</Basket.Cost>
                    </Basket>
                 </Icons.Nav>
          </Container>
