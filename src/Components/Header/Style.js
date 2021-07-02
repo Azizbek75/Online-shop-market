@@ -105,7 +105,7 @@ text-indent: 15px;
 padding: 12px;
 font-size: 16px;
 ::placeholder {
-    color:black
+    color:black;
 }
 `
 Search.Btn = styled.input`
@@ -118,8 +118,8 @@ background-color: #53A5D4;
 cursor: pointer;
 outline: none;
 box-shadow: 0 2px 5px #53A5D4;
-transition: all 0.3s linear;
 :active {
     transform: scale(0.9);
 }
+transition: all 0.3s linear;
 `

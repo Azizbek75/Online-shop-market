@@ -34,13 +34,13 @@ const Mobile = () => {
         <Items>
             <Modal hide={hide} > 
                 <Modal.Content>
-                  <Modal.Svg1 onClick={()=>{setHide(!hide)}}/>
+                  <Modal.Svg1 onClick={()=>{setHide(!hide,setNumber(0))}}/>
                     <Modal.Box>
                             <Modal.Img src={modalData!=="" && modalData.urls.regular}/>
                     </Modal.Box>
                     <Modal.Box>
                         <Modal.Title>
-                            Name Product
+                            Name Product - Cost Product
                         </Modal.Title>
                         <Modal.Text>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, nulla.

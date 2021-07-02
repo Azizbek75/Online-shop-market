@@ -39,7 +39,7 @@ export default () => {
                         <Search.Option value={'Sport'}>Sport</Search.Option>
                     </Search.Select>
                     <Search.Input type="search" placeholder={"Enter product and Search over shop"}/>
-                    <Search.Btn type="submit" value="Search"/>
+                    <Search.Btn type="button" value="Search"/>
                 </Search.Form>
             </Container>
         </Search>

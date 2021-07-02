@@ -165,7 +165,7 @@ display: ${({hide})=>hide? "flex":"none"};
 Modal.Content = styled.div`
 width: 400px;
 height: 400px;
-border-radius: 8px;
+border-radius: 16px;
 background-color: #fff;
 position: relative;
 `
